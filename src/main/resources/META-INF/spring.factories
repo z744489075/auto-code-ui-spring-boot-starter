@@ -1,0 +1,1 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.zengtengpeng.AutoCodeConfiguration,com.zengtengpeng.Swagger2Configuration
