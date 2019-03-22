@@ -1,5 +1,5 @@
 # auto-code-ui-spring-boot-starter
-欢迎使用auto-code-ui-spring-boot-starter可视化界面代码生成器.
+欢迎使用auto-code-ui-spring-boot-starter可视化界面代码生成器. [演示地址](http://www.zengtengpeng.com/auto-code-ui/ui/index.html)
 #### 介绍
 传统的java web配置过于繁琐.spring boot的核心思想就是基于约定的配置.所以如果你是spring boot项目 
 只需要简短的几步就能配置 `单表`,`一对一`,`一对多`,`多对多`可视化界面代码生成器.
@@ -15,17 +15,11 @@
 
 1. 增加pom.xml jar包
 ```xml
-<!-- pagehelper 分页插件 -->
-<dependency>
-    <groupId>com.github.pagehelper</groupId>
-    <artifactId>pagehelper-spring-boot-starter</artifactId>
-    <version>1.2.10</version>
-</dependency>
 <!-- 代码生成器可视化视图 -->
 <dependency>
     <groupId>com.zengtengpeng</groupId>
     <artifactId>auto-code-ui-spring-boot-starter</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 </dependency>
 ```
 2. application.properties增加属性 (更多参数请参考 [auto-code](https://gitee.com/ztp/auto-code#3))
