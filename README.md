@@ -19,7 +19,7 @@
 <dependency>
     <groupId>com.zengtengpeng</groupId>
     <artifactId>auto-code-ui-spring-boot-starter</artifactId>
-    <version>1.0.4</version>
+    <version>1.0.5</version>
 </dependency>
 ```
 2. application.properties增加属性 (更多参数请参考 [auto-code](https://gitee.com/ztp/auto-code#3))
@@ -35,6 +35,9 @@ pagehelper.params=count=countSql
 auto-code.parentPath=E:\\resource\\workspaceJDB\\auto-code-springboot-demo
 #生成代码的父包 如父包是com.zengtengpeng.test  controller将在com.zengtengpeng.test.controller下 bean 将在com.zengtengpeng.test.bean下 ,service,dao同理
 auto-code.parentPack=com.zengtengpeng.simple
+
+#表空间,oracle请一定要设置该属性,如果不设置查找表时将查找到大量的系统表,非常影响性能
+spring.datasource.name=AUTO_CODE
 ```
 
 3. 集成完毕,启动自己的项目,访问 http://localhost:8080/auto-code-ui/ui/index.html.界面如下:
