@@ -19,7 +19,7 @@
 <dependency>
     <groupId>com.zengtengpeng</groupId>
     <artifactId>auto-code-ui-spring-boot-starter</artifactId>
-    <version>1.0.6</version>
+    <version>1.0.7</version>
 </dependency>
 ```
 2. application.properties增加属性 (更多参数请参考 [auto-code](https://gitee.com/ztp/auto-code#3))
