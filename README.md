@@ -1,5 +1,5 @@
 # auto-code-ui-spring-boot-starter
-欢迎使用auto-code-ui-spring-boot-starter可视化界面代码生成器. [演示地址](http://106.13.119.110:8010/auto-code-ui/ui/index.html)
+欢迎使用auto-code-ui-spring-boot-starter可视化界面代码生成器. [演示地址](http://106.13.101.206:8010/auto-code-ui/ui/index.html)
 #### 介绍
 传统的java web配置过于繁琐.spring boot的核心思想就是基于约定的配置.所以如果你是spring boot项目 
 只需要简短的几步就能配置 `单表`,`一对一`,`一对多`,`多对多`可视化界面代码生成器.
